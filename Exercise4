@@ -1,0 +1,21 @@
+public class App {
+    private static final Myself Myself = null;
+
+    public static void main(String[] args) throws Exception {
+        
+    
+    Person Friend = new Person("Jonathan", 18);
+    
+    Myself Me = new Myself("Abi", 18);
+    Me.addFriend(Friend);    
+    
+    
+    Pet Wolf = new Pet("Wolfy ", Friend );
+    Wolf.Showownername();
+
+
+
+    Car Audi = new Car("Speedy", Myself);
+    Car.Showownername();
+    }
+}
